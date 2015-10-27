@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: auto;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ecf0f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 30%;
+    width: 50%;
+}
+
+.card div.photo {
+    flex: 0 1 auto;
+    align-self: auto;
+    min-width: 20%;
+    min-height: auto;
+    background-image: url("../img/hoffnung.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menubar div.info {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: auto;
+    min-width: 75%;
+    min-height: auto;
+
+}
+
+
+
+
