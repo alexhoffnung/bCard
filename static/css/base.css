@@ -4,33 +4,21 @@ body {
 }
 
 #bCard {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: auto;
-    align-content: center;
-    align-items: center;
     padding: 20px;
     max-width: 50vw;
     background-color: white;
     box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 
-.card div.photo {
-    flex: 0 1 auto;
-    align-self: auto;
-    min-width: 20%;
-    min-height: auto;
+div.photo {
     background-image: url("../img/hoffnung.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40%;
-    height: 100%;
+    width: 400px;
+    height: 300px;
 }
 
-.menubar div.info {
-    order: 2;
-    flex: 0 1 auto;
-    align-self: auto;
+div.info {
     min-width: 75%;
     min-height: auto;
 
