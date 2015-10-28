@@ -1,6 +1,12 @@
 body {
     background: #ecf0f1;
     font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-flow:  row nowrap ;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
 
 #bcard {
@@ -9,6 +15,10 @@ body {
     background-color: white;
     box-shadow: 5px 5px rgba(0,0,0,0.1);
     min-width: 275px;
+    order: 1;
+ 	flex: 0 1 auto;
+	align-self: auto;
+	text-align: center;
 }
 
 .quote {
@@ -28,6 +38,10 @@ img {
 	margin-right: 20px;
 }
 
-.box-link { 
-    background-color: transparent; 
-} 
+a:link, a:visited {
+	color: #ECF0F1;
+}
+
+a:hover {
+	color: #2980b9;
+}
