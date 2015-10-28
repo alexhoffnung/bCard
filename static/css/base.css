@@ -3,27 +3,31 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#bCard {
+#bcard {
     padding: 20px;
     max-width: 50vw;
     background-color: white;
     box-shadow: 5px 5px rgba(0,0,0,0.1);
+    min-width: 275px;
 }
 
-div.photo {
-    background-image: url("../img/hoffnung.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
+.quote {
+	font-weight: 200;
+	font-style: italic;
+	font-size: 1.5rem;
 }
 
-div.info {
-    min-width: 75%;
-    min-height: auto;
-
+img {
+   	width: 50%;
+	max-width: 150px;
+	border-radius: 150px;
+	border: 8px solid #ecf0f1;
 }
 
+.fa {
+	margin-right: 20px;
+}
 
-
-
+.box-link { 
+    background-color: transparent; 
+} 
